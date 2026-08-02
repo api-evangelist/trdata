@@ -1,7 +1,31 @@
 aid: trdata
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trdata.png
 name: TRDATA
-description: TRDATA is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  TRDATA (TRDATA Technology Limited) is a real-time financial information and
+  communication platform for professional traders, aggregating over-the-counter
+  (OTC) quotes, prices, news, and analytics from market makers across fragmented
+  fixed-income and emerging-market instruments. It covers Ukrainian, CEEMEA, and
+  global bonds, currencies, commodities, and derivatives from local and
+  international data providers, and bundles analytics tools such as a Bond
+  Calculator, Bond Calendar, Swap Curves, real-time asset charts, and a TRDATA
+  Excel add-in. More than 800 institutions -- including Societe Generale,
+  UniCredit, Raiffeisen, BNP Paribas, Barclays, Deutsche Bank, and Commerzbank --
+  use the platform to read and exchange market information. TRDATA is backed by
+  500 Global. As of this profile the company publishes no public developer API,
+  SDKs, or documentation surface; access is via registration and the hosted
+  platform.
 url: https://raw.githubusercontent.com/api-evangelist/trdata/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +35,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Financial Services
+- Market Data
+- Fixed Income
+- OTC Markets
+- Trading
+- News
+- Analytics
+- Emerging Markets
+- Bonds
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +56,26 @@ maintainers:
 common:
 - type: Website
   url: https://trdata.com
+- type: About
+  url: https://trdata.com/about/
+- type: Pricing
+  url: https://trdata.com/pricing/
+- type: SignUp
+  url: https://trdata.com/signin/?lang=en
+- type: TermsOfService
+  url: https://trdata.com/terms-of-service-2/
+- type: PrivacyPolicy
+  url: https://trdata.com/privacy-policy-2/
+- type: Support
+  url: https://trdata.com/contact-us/
+- type: Twitter
+  url: https://twitter.com/trdata
+- type: Facebook
+  url: https://www.facebook.com/TRDATA.platform
+- type: DomainSecurity
+  url: security/trdata-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
